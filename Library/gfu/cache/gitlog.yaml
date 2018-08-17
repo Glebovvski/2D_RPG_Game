@@ -1,0 +1,875 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2018-08-17T20:06:29.338+03:00
+  initializedAtString: 2018-08-17T13:33:45.519+03:00
+  log:
+  - commitID: 2b03ce730e4b3819019ecc416b1ede2016290f43
+    mergeA: 
+    mergeB: 
+    authorName: Gleb
+    authorEmail: zadachings@gmail.com
+    commitEmail: zadachings@gmail.com
+    commitName: Gleb
+    summary: First commit
+    description: First commit
+    timeString: 2018-08-15T23:41:07.000+03:00
+    commitTimeString: 2018-08-15T23:41:07.000+03:00
+    changes:
+    - path: .vs\2D_RPG_First\DesignTimeBuild\.dtbcache
+      fullPath: D:\UnityProjects\2D_RPG_First\.vs\2D_RPG_First\DesignTimeBuild\.dtbcache
+      projectPath: .vs\2D_RPG_First\DesignTimeBuild\.dtbcache
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .vs\2D_RPG_First\v15\.suo
+      fullPath: D:\UnityProjects\2D_RPG_First\.vs\2D_RPG_First\v15\.suo
+      projectPath: .vs\2D_RPG_First\v15\.suo
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .vs\2D_RPG_First\v15\Server\sqlite3\db.lock
+      fullPath: D:\UnityProjects\2D_RPG_First\.vs\2D_RPG_First\v15\Server\sqlite3\db.lock
+      projectPath: .vs\2D_RPG_First\v15\Server\sqlite3\db.lock
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide
+      fullPath: D:\UnityProjects\2D_RPG_First\.vs\2D_RPG_First\v15\Server\sqlite3\storage.ide
+      projectPath: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-shm
+      fullPath: D:\UnityProjects\2D_RPG_First\.vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-wal
+      fullPath: D:\UnityProjects\2D_RPG_First\.vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: 2D_RPG_First.sln
+      fullPath: D:\UnityProjects\2D_RPG_First\2D_RPG_First.sln
+      projectPath: 2D_RPG_First.sln
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: D:\UnityProjects\2D_RPG_First\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Animation.meta
+      projectPath: Assets\Animation.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Clips.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Animation\Clips.meta
+      projectPath: Assets\Animation\Clips.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Clips\CharacterIdle.anim
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Animation\Clips\CharacterIdle.anim
+      projectPath: Assets\Animation\Clips\CharacterIdle.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Clips\CharacterIdle.anim.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Animation\Clips\CharacterIdle.anim.meta
+      projectPath: Assets\Animation\Clips\CharacterIdle.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Clips\CharacterJump.anim
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Animation\Clips\CharacterJump.anim
+      projectPath: Assets\Animation\Clips\CharacterJump.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Clips\CharacterJump.anim.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Animation\Clips\CharacterJump.anim.meta
+      projectPath: Assets\Animation\Clips\CharacterJump.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Clips\CharacterRun.anim
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Animation\Clips\CharacterRun.anim
+      projectPath: Assets\Animation\Clips\CharacterRun.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Clips\CharacterRun.anim.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Animation\Clips\CharacterRun.anim.meta
+      projectPath: Assets\Animation\Clips\CharacterRun.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Clips\Player.controller
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Animation\Clips\Player.controller
+      projectPath: Assets\Animation\Clips\Player.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Clips\Player.controller.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Animation\Clips\Player.controller.meta
+      projectPath: Assets\Animation\Clips\Player.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Controllers.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Animation\Controllers.meta
+      projectPath: Assets\Animation\Controllers.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Audio.meta
+      projectPath: Assets\Audio.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\Enemy.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Audio\Enemy.meta
+      projectPath: Assets\Audio\Enemy.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\FX.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Audio\FX.meta
+      projectPath: Assets\Audio\FX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\Music.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Audio\Music.meta
+      projectPath: Assets\Audio\Music.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Audio\Player.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Audio\Player.meta
+      projectPath: Assets\Audio\Player.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Fonts.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Fonts.meta
+      projectPath: Assets\Fonts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Materials.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Materials.meta
+      projectPath: Assets\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Physics Materials.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Physics Materials.meta
+      projectPath: Assets\Physics Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Characters.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Prefabs\Characters.meta
+      projectPath: Assets\Prefabs\Characters.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Environment.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Prefabs\Environment.meta
+      projectPath: Assets\Prefabs\Environment.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\FX.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Prefabs\FX.meta
+      projectPath: Assets\Prefabs\FX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Props.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Prefabs\Props.meta
+      projectPath: Assets\Prefabs\Props.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\UI.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Prefabs\UI.meta
+      projectPath: Assets\Prefabs\UI.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\CharacterMovement.cs
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\CharacterMovement.cs
+      projectPath: Assets\Scripts\CharacterMovement.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\CharacterMovement.cs.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\CharacterMovement.cs.meta
+      projectPath: Assets\Scripts\CharacterMovement.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Entity.cs
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\Entity.cs
+      projectPath: Assets\Scripts\Entity.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Entity.cs.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\Entity.cs.meta
+      projectPath: Assets\Scripts\Entity.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\FollowCamera.cs
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\FollowCamera.cs
+      projectPath: Assets\Scripts\FollowCamera.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\FollowCamera.cs.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\FollowCamera.cs.meta
+      projectPath: Assets\Scripts\FollowCamera.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\NavigationManager.cs
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\NavigationManager.cs
+      projectPath: Assets\Scripts\NavigationManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\NavigationManager.cs.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\NavigationManager.cs.meta
+      projectPath: Assets\Scripts\NavigationManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\NavigationPrompt.cs
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\NavigationPrompt.cs
+      projectPath: Assets\Scripts\NavigationPrompt.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\NavigationPrompt.cs.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\NavigationPrompt.cs.meta
+      projectPath: Assets\Scripts\NavigationPrompt.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Player.cs
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\Player.cs
+      projectPath: Assets\Scripts\Player.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Player.cs.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\Player.cs.meta
+      projectPath: Assets\Scripts\Player.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites.meta
+      projectPath: Assets\Sprites.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Characters.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Characters.meta
+      projectPath: Assets\Sprites\Characters.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Characters\01.png
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Characters\01.png
+      projectPath: Assets\Sprites\Characters\01.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Characters\01.png.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Characters\01.png.meta
+      projectPath: Assets\Sprites\Characters\01.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Environment.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment.meta
+      projectPath: Assets\Sprites\Environment.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Environment\background01.png
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment\background01.png
+      projectPath: Assets\Sprites\Environment\background01.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Environment\background01.png.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment\background01.png.meta
+      projectPath: Assets\Sprites\Environment\background01.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Environment\background02.png
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment\background02.png
+      projectPath: Assets\Sprites\Environment\background02.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Environment\background02.png.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment\background02.png.meta
+      projectPath: Assets\Sprites\Environment\background02.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Environment\environmentalAssets.png
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment\environmentalAssets.png
+      projectPath: Assets\Sprites\Environment\environmentalAssets.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Environment\environmentalAssets.png.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment\environmentalAssets.png.meta
+      projectPath: Assets\Sprites\Environment\environmentalAssets.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Environment\environmentalAssets2.png
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment\environmentalAssets2.png
+      projectPath: Assets\Sprites\Environment\environmentalAssets2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Environment\environmentalAssets2.png.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment\environmentalAssets2.png.meta
+      projectPath: Assets\Sprites\Environment\environmentalAssets2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Environment\ground.png
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment\ground.png
+      projectPath: Assets\Sprites\Environment\ground.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Environment\ground.png.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment\ground.png.meta
+      projectPath: Assets\Sprites\Environment\ground.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\FX.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\FX.meta
+      projectPath: Assets\Sprites\FX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Props.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Props.meta
+      projectPath: Assets\Sprites\Props.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\UI.meta
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\UI.meta
+      projectPath: Assets\Sprites\UI.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Packages\manifest.json
+      fullPath: D:\UnityProjects\2D_RPG_First\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+      fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.dll
+      fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp.dll
+      projectPath: obj\Debug\Assembly-CSharp.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.pdb
+      fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp.pdb
+      projectPath: obj\Debug\Assembly-CSharp.pdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      status: 4
+      staged: 0

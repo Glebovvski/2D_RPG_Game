@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SlimGoblin
+  m_Controller: {fileID: 9100000, guid: 20025712e175ca24ab811eb6571f21ba, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c6123b0fa163c42439ab70bc5116cc4c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0273bcaebd46b954e9722602504b8f68, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ecbd084f09479f640bec0732c90a2025, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f6f8d79a38abb5c41ae7b8150a408c56, type: 2}

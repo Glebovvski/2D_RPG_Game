@@ -21,7 +21,7 @@ public class FollowCamera : MonoBehaviour {
 
     private void Awake()
     {
-        var backgroundBounds = GameObject.Find("background01").GetComponent<Renderer>().bounds;
+        var backgroundBounds = GameObject.FindGameObjectWithTag("Background").GetComponent<Renderer>().bounds; //GameObject.Find("background01").GetComponent<Renderer>().bounds;
         var camera = GetComponent<Camera>();
         var camTopLeft = camera.ViewportToWorldPoint(new Vector3(0, 0, 0));
         var camBottomRight = camera.ViewportToWorldPoint(new Vector3(1, 1, 0));

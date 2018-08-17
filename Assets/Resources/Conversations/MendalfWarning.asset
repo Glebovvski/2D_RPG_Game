@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95963b8e0a70f74d8b30befd40affcc, type: 3}
+  m_Name: MendalfWarning
+  m_EditorClassIdentifier: 
+  ConversationLines:
+  - SpeakingCharacterName: Mendalf
+    ConversationText: Hey there! Where do you think you go, traveller?
+    DisplayPic: {fileID: 21300010, guid: 27a12cc0b00a7a54488ec9bc63a3cd39, type: 3}
+  - SpeakingCharacterName: Hero
+    ConversationText: Errr... To the cave?
+    DisplayPic: {fileID: 21300010, guid: fba12e42092ad0041bfc49ddc9318e09, type: 3}
+  - SpeakingCharacterName: Mendalf
+    ConversationText: To the cave?! No! Impossible! You shall not pass!
+    DisplayPic: {fileID: 21300010, guid: 27a12cc0b00a7a54488ec9bc63a3cd39, type: 3}
+  - SpeakingCharacterName: Hero
+    ConversationText: Why so?
+    DisplayPic: {fileID: 21300010, guid: fba12e42092ad0041bfc49ddc9318e09, type: 3}
+  - SpeakingCharacterName: Mendalf
+    ConversationText: 'Why so?! '
+    DisplayPic: {fileID: 21300010, guid: 27a12cc0b00a7a54488ec9bc63a3cd39, type: 3}
+  - SpeakingCharacterName: Mendalf
+    ConversationText: This cave filled with dangerous traps and goblins!
+    DisplayPic: {fileID: 21300010, guid: 27a12cc0b00a7a54488ec9bc63a3cd39, type: 3}
+  - SpeakingCharacterName: Mendalf
+    ConversationText: These kids nowadays... Go away, I won't let you die like this
+    DisplayPic: {fileID: 21300010, guid: 27a12cc0b00a7a54488ec9bc63a3cd39, type: 3}
+  - SpeakingCharacterName: Hero
+    ConversationText: Woah! That was rude
+    DisplayPic: {fileID: 21300010, guid: fba12e42092ad0041bfc49ddc9318e09, type: 3}

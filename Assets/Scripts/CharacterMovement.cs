@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour {
-
+    
     private Rigidbody2D playerRigidbody2D;
 
     private bool facingRight;
@@ -24,8 +24,10 @@ public class CharacterMovement : MonoBehaviour {
 
     private void Awake()
     {
+        Application.targetFrameRate = 60;
         groundCheck = transform.Find("groundCheck");
         playerRigidbody2D = GetComponent<Rigidbody2D>();
+        playerRigidbody2D.freezeRotation = true;
         playerSprite = transform.Find("PlayerSprite").gameObject;
         anim = playerSprite.GetComponent<Animator>();
     }

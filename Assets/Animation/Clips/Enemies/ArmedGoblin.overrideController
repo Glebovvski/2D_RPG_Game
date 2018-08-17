@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ArmedGoblin
+  m_Controller: {fileID: 9100000, guid: 20025712e175ca24ab811eb6571f21ba, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c6123b0fa163c42439ab70bc5116cc4c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 54ed4f1d8e8f45444b4dc075f5c188e6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ecbd084f09479f640bec0732c90a2025, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e5a8f3ba40abc014b871b53488ec294d, type: 2}

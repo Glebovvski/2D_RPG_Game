@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Cave01
   - World
+  - Shop
+  - Town
+  - Background
+  - Kirkidw
   layers:
   - Default
   - TransparentFX
@@ -54,4 +58,7 @@ TagManager:
     locked: 0
   - name: GUI
     uniqueID: 3656637935
+    locked: 0
+  - name: NPC
+    uniqueID: 3557163689
     locked: 0
