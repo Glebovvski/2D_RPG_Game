@@ -12,24 +12,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-18T18:22:32.974+03:00
+  lastUpdatedAtString: 2018-08-18T18:23:08.993+03:00
   initializedAtString: 2018-08-18T18:16:43.375+03:00
   entries:
-  - path: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide
-    fullPath: D:\UnityProjects\2D_RPG_First\.vs\2D_RPG_First\v15\Server\sqlite3\storage.ide
-    projectPath: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-shm
-    fullPath: D:\UnityProjects\2D_RPG_First\.vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-shm
-    projectPath: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-shm
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-wal
-    fullPath: D:\UnityProjects\2D_RPG_First\.vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-wal
-    projectPath: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-wal
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -42,12 +30,6 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: D:\UnityProjects\2D_RPG_First\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0
