@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BattleManager.cs" />
     <Compile Include="Assets\Scripts\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\Classes\Conversation.cs" />
     <Compile Include="Assets\Scripts\Classes\ConversationComponent.cs" />

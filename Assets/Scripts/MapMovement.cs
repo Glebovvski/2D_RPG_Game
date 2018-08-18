@@ -5,6 +5,7 @@ using UnityEngine;
 public class MapMovement : MonoBehaviour {
 
     public AnimationCurve MovementCurve;
+    private Animator anim;
 
     Vector3 StartLocation;
     Vector3 TargetLocation;
@@ -20,6 +21,7 @@ public class MapMovement : MonoBehaviour {
     private void Awake()
     {
         GetComponent<Collider2D>().enabled = false;
+        anim = GetComponent<Animator>();
     }
 
     private void Start()
@@ -37,6 +39,9 @@ public class MapMovement : MonoBehaviour {
         facingRight = transform.localScale.x == -1.0f ? true : false;
         if (inputActive && Input.GetMouseButtonUp(0))
         {
+            float movePlayerVector = Input.mousePosition.GetScreenPositionFor2D().x;
+
+            anim.SetFloat("speed", Mathf.Abs(movePlayerVector));
             Vector2 posMouse = Input.mousePosition.GetScreenPositionFor2D();
             if (posMouse.x < transform.position.x && facingRight)
             {
@@ -72,6 +77,7 @@ public class MapMovement : MonoBehaviour {
         {
             GetComponent<Collider2D>().enabled = true;
             startedTravelling = false;
+            anim.SetFloat("speed", 0f);
         }
 
         //if(!inputReady && inputActive)

@@ -17,7 +17,8 @@ public class NavigationManager {
         {"Cave01", new Route{RouteDescription= "The deep dark cave",CanTravel=false } },
         {"Shop", new Route { RouteDescription= "Ye Shop", CanTravel=true } },
         {"Town", new Route{ RouteDescription= "The Town",CanTravel=true } },
-        {"Kirkidw", new Route{RouteDescription="The grand city of Kirkidw", CanTravel=true} }
+        {"Kirkidw", new Route{RouteDescription="The grand city of Kirkidw", CanTravel=true} },
+        {"Battle", new Route{RouteDescription="Hard Battle", CanTravel=true } }
     };
 
     public static string GetRouteInfo(string destination)
