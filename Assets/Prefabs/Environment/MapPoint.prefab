@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 212471479667742108}
   m_Layer: 0
   m_Name: MapPoint
-  m_TagString: Kirkidw
+  m_TagString: Battle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,8 +36,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1412297937823912}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.727, y: 5.163, z: 0}
-  m_LocalScale: {x: 1.245, y: 2.616, z: 1}
+  m_LocalPosition: {x: -14.85, y: 3.86, z: 0}
+  m_LocalScale: {x: 1.3205, y: 2.34167, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -110,8 +110,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -773047163
-  m_SortingLayer: 2
+  m_SortingLayerID: -2009260429
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2f23d2f08b4c7cd4ab66ac766a3ab68c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -26,6 +26,7 @@ public class BattleManager : MonoBehaviour {
         {
             if(GUI.Button(new Rect(10,10,100,50),"Run Away"))
             {
+                GameState.PlayerReturningHome = true;
                 NavigationManager.NavigateTo("World");
             }
         }
@@ -43,7 +44,7 @@ public class BattleManager : MonoBehaviour {
     {
         for (int i = 0; i < enemyCount; i++)
         {
-            var newEnemy = (GameObject)Instantiate(EnemyPrefabs[0]);
+            var newEnemy = (GameObject)Instantiate(EnemyPrefabs[Random.Range(0, EnemyPrefabs.Length)]);
 
             newEnemy.transform.position = new Vector3(10, -1, 0);
 

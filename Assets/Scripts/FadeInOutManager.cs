@@ -16,7 +16,9 @@ public class FadeInOutManager : Singleton<FadeInOutManager> {
     private string navigateToLevelName = "";
     private int navigateToLevelIndex = 0;
 
+    private string destination;
     private bool fading = false;
+
     public static bool Fading
     {
         get { return Instance.fading; }
@@ -38,18 +40,26 @@ public class FadeInOutManager : Singleton<FadeInOutManager> {
         StartCoroutine("Fade");
     }
 
-    private IEnumerator Fade()
+    private void OnGUI()
     {
-        string destination= NavigationManager.RouteInformation[navigateToLevelName].RouteDescription;
         GUIStyle style = new GUIStyle();
         style.fontSize = 24;
         style.fontStyle = FontStyle.Italic;
         style.normal.textColor = Color.white;
+        if (fading)
+            GUI.Label(new Rect(Screen.width / 2 - 100, Screen.height / 2, 1000, 1000), destination, style);
+    }
+
+    private IEnumerator Fade()
+    {
+        destination = NavigationManager.RouteInformation[navigateToLevelName].RouteDescription;
+        
         float t = 0.0f;
         while (t < 1.0f)
         {
-            GUI.Label(new Rect(Screen.width / 2 -100, Screen.height / 2, 1000, 1000), destination,style);
+            fading = true;
             yield return new WaitForEndOfFrame();
+            
             t = Mathf.Clamp01(t + Time.deltaTime / fadeOutTime);
             DrawingUtilities.DrawQuad(fadeMaterial, fadeColor, t);
         }
@@ -64,8 +74,9 @@ public class FadeInOutManager : Singleton<FadeInOutManager> {
 
         while (t > 0.0f)
         {
-            GUI.Label(new Rect(Screen.width / 2 - 100, Screen.height / 2, 1000, 1000), destination, style);
+            fading = true;
             yield return new WaitForEndOfFrame();
+            
             t = Mathf.Clamp01(t - Time.deltaTime / fadeInTime);
 
             DrawingUtilities.DrawQuad(fadeMaterial, fadeColor, t);
