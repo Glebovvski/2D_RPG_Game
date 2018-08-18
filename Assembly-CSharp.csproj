@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Classes\ConversationComponent.cs" />
     <Compile Include="Assets\Scripts\Classes\ConversationEntry.cs" />
     <Compile Include="Assets\Scripts\Classes\Entity.cs" />
+    <Compile Include="Assets\Scripts\Classes\GameState.cs" />
     <Compile Include="Assets\Scripts\Classes\NPC.cs" />
     <Compile Include="Assets\Scripts\Classes\Player.cs" />
     <Compile Include="Assets\Scripts\Classes\Singletone.cs" />

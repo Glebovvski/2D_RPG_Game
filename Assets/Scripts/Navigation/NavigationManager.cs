@@ -33,6 +33,11 @@ public class NavigationManager {
 
     public static void NavigateTo(string destination)
     {
+        if (destination == "Town")
+        {
+            GameState.PlayerReturningHome = false;
+        }
+
         FadeInOutManager.FadeToLevel(destination, 2f, 2f, Color.black);
     }
 }

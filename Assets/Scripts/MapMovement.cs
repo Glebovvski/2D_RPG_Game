@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MapMovement : MonoBehaviour {
 
@@ -22,6 +23,11 @@ public class MapMovement : MonoBehaviour {
     {
         GetComponent<Collider2D>().enabled = false;
         anim = GetComponent<Animator>();
+
+        var lastPosition = GameState.GetLastScenePosition(SceneManager.GetActiveScene().name);
+
+        if (lastPosition != Vector3.zero)
+            transform.position = lastPosition;
     }
 
     private void Start()
@@ -87,5 +93,10 @@ public class MapMovement : MonoBehaviour {
         //}
 
         inputActive = inputReady;
+    }
+
+    private void OnDestroy()
+    {
+        GameState.SetLastScenePosition(SceneManager.GetActiveScene().name, transform.position);
     }
 }
