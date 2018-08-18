@@ -10,6 +10,7 @@ TagManager:
   - Town
   - Background
   - Kirkidw
+  - Battle
   layers:
   - Default
   - TransparentFX

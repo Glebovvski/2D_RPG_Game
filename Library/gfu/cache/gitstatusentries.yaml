@@ -12,6 +12,474 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-17T21:05:24.645+03:00
-  initializedAtString: 2018-08-17T20:46:12.498+03:00
-  entries: []
+  lastUpdatedAtString: 2018-08-18T18:13:38.212+03:00
+  initializedAtString: 2018-08-18T13:43:49.866+03:00
+  entries:
+  - path: Library\assetDatabase3
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\EditorInstance.json
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\expandedItems
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gituser.yaml
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gituser.yaml
+    projectPath: Library\gfu\cache\gituser.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\1b\1bc1808b84620224388b0637f28f9f43
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\1b\1bc1808b84620224388b0637f28f9f43
+    projectPath: Library\metadata\1b\1bc1808b84620224388b0637f28f9f43
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\20\2099d0bf462b43c4facd7ce2cd273ce5.info
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\20\2099d0bf462b43c4facd7ce2cd273ce5.info
+    projectPath: Library\metadata\20\2099d0bf462b43c4facd7ce2cd273ce5.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\30\3079dfaf19a54644b85f0c746ce1c3ea
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\30\3079dfaf19a54644b85f0c746ce1c3ea
+    projectPath: Library\metadata\30\3079dfaf19a54644b85f0c746ce1c3ea
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\30\3079dfaf19a54644b85f0c746ce1c3ea.info
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\30\3079dfaf19a54644b85f0c746ce1c3ea.info
+    projectPath: Library\metadata\30\3079dfaf19a54644b85f0c746ce1c3ea.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\53\530b0018d1be48245bd8ddfa2fb20e05
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\53\530b0018d1be48245bd8ddfa2fb20e05
+    projectPath: Library\metadata\53\530b0018d1be48245bd8ddfa2fb20e05
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\be\beea43af640079b4aa49610647af2b47
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\be\beea43af640079b4aa49610647af2b47
+    projectPath: Library\metadata\be\beea43af640079b4aa49610647af2b47
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\be\beea43af640079b4aa49610647af2b47.info
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\be\beea43af640079b4aa49610647af2b47.info
+    projectPath: Library\metadata\be\beea43af640079b4aa49610647af2b47.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\c3\c3e1555836ed1b845a0a915baee196f8
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\c3\c3e1555836ed1b845a0a915baee196f8
+    projectPath: Library\metadata\c3\c3e1555836ed1b845a0a915baee196f8
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\c3\c3e1555836ed1b845a0a915baee196f8.info
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\c3\c3e1555836ed1b845a0a915baee196f8.info
+    projectPath: Library\metadata\c3\c3e1555836ed1b845a0a915baee196f8.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\d1\d1de3aa4861199b45aa574e7aaf68942
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\d1\d1de3aa4861199b45aa574e7aaf68942
+    projectPath: Library\metadata\d1\d1de3aa4861199b45aa574e7aaf68942
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\d9\d924a1eb604e08d4babd347f48e0f277
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\d9\d924a1eb604e08d4babd347f48e0f277
+    projectPath: Library\metadata\d9\d924a1eb604e08d4babd347f48e0f277
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\e2\e277970c324e0954cab402a2defb45d7
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\e2\e277970c324e0954cab402a2defb45d7
+    projectPath: Library\metadata\e2\e277970c324e0954cab402a2defb45d7
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e2\e277970c324e0954cab402a2defb45d7.info
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\e2\e277970c324e0954cab402a2defb45d7.info
+    projectPath: Library\metadata\e2\e277970c324e0954cab402a2defb45d7.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\e3\e3f6534a4d40af4449df237f4b3b7abe
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\e3\e3f6534a4d40af4449df237f4b3b7abe
+    projectPath: Library\metadata\e3\e3f6534a4d40af4449df237f4b3b7abe
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\e3\e3f6534a4d40af4449df237f4b3b7abe.info
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\e3\e3f6534a4d40af4449df237f4b3b7abe.info
+    projectPath: Library\metadata\e3\e3f6534a4d40af4449df237f4b3b7abe.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f4\f434cb02f790ccf4581f97b61ad9080c
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\f4\f434cb02f790ccf4581f97b61ad9080c
+    projectPath: Library\metadata\f4\f434cb02f790ccf4581f97b61ad9080c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\metadata\f4\f434cb02f790ccf4581f97b61ad9080c.info
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\f4\f434cb02f790ccf4581f97b61ad9080c.info
+    projectPath: Library\metadata\f4\f434cb02f790ccf4581f97b61ad9080c.info
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings\TagManager.asset
+    fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityLockfile
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-20d858ac6b238184aa97b1a462b32216
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-20d858ac6b238184aa97b1a462b32216
+    projectPath: Temp\UnityTempFile-20d858ac6b238184aa97b1a462b32216
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-2142169d28c441c4bb8f1b11aa1d9610
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-2142169d28c441c4bb8f1b11aa1d9610
+    projectPath: Temp\UnityTempFile-2142169d28c441c4bb8f1b11aa1d9610
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-21bd34a82e5b80f44afeec2a92384b60
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-21bd34a82e5b80f44afeec2a92384b60
+    projectPath: Temp\UnityTempFile-21bd34a82e5b80f44afeec2a92384b60
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-26b5e4bfe480fe348bda3367228a98ff
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-26b5e4bfe480fe348bda3367228a98ff
+    projectPath: Temp\UnityTempFile-26b5e4bfe480fe348bda3367228a98ff
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-270208c074af00a4bbd916846fa717b6
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-270208c074af00a4bbd916846fa717b6
+    projectPath: Temp\UnityTempFile-270208c074af00a4bbd916846fa717b6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-293527a34b149b645bc8e2e9bb992f65
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-293527a34b149b645bc8e2e9bb992f65
+    projectPath: Temp\UnityTempFile-293527a34b149b645bc8e2e9bb992f65
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-29fd4eb45e1ab084ea17a4ac5d1ed257
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-29fd4eb45e1ab084ea17a4ac5d1ed257
+    projectPath: Temp\UnityTempFile-29fd4eb45e1ab084ea17a4ac5d1ed257
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-2e03e02be96b176428c80a39e7db533a
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-2e03e02be96b176428c80a39e7db533a
+    projectPath: Temp\UnityTempFile-2e03e02be96b176428c80a39e7db533a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-342266c82b5f2f9459f758dfbbc4b756
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-342266c82b5f2f9459f758dfbbc4b756
+    projectPath: Temp\UnityTempFile-342266c82b5f2f9459f758dfbbc4b756
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-3927adb4f8d035e49b5725b60204a7cf
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-3927adb4f8d035e49b5725b60204a7cf
+    projectPath: Temp\UnityTempFile-3927adb4f8d035e49b5725b60204a7cf
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-44a1b8a7bcfac7b4b859b5d88800f8fb
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-44a1b8a7bcfac7b4b859b5d88800f8fb
+    projectPath: Temp\UnityTempFile-44a1b8a7bcfac7b4b859b5d88800f8fb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-44ea89d03bcc661429f97af847732d76
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-44ea89d03bcc661429f97af847732d76
+    projectPath: Temp\UnityTempFile-44ea89d03bcc661429f97af847732d76
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-4b97c5ab3f36687439e4b91a07b5b863
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-4b97c5ab3f36687439e4b91a07b5b863
+    projectPath: Temp\UnityTempFile-4b97c5ab3f36687439e4b91a07b5b863
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-4e671531f93d2cd48bbf79fccbccf6f5
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-4e671531f93d2cd48bbf79fccbccf6f5
+    projectPath: Temp\UnityTempFile-4e671531f93d2cd48bbf79fccbccf6f5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-53c48b8d40b11384bb2ebf7aa4fa801e
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-53c48b8d40b11384bb2ebf7aa4fa801e
+    projectPath: Temp\UnityTempFile-53c48b8d40b11384bb2ebf7aa4fa801e
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-6bc838a3641b81d4dadc8cc725345601
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-6bc838a3641b81d4dadc8cc725345601
+    projectPath: Temp\UnityTempFile-6bc838a3641b81d4dadc8cc725345601
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-70d88a171084051488c83812ada6ca6d
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-70d88a171084051488c83812ada6ca6d
+    projectPath: Temp\UnityTempFile-70d88a171084051488c83812ada6ca6d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-7dddfe933dc93874085a98a3db4a8c8c
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-7dddfe933dc93874085a98a3db4a8c8c
+    projectPath: Temp\UnityTempFile-7dddfe933dc93874085a98a3db4a8c8c
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-851224ee1f2e5e04099e91e198bdb13a
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-851224ee1f2e5e04099e91e198bdb13a
+    projectPath: Temp\UnityTempFile-851224ee1f2e5e04099e91e198bdb13a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-8ae55eb66d5c1b34da5f6d325e0cc019
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-8ae55eb66d5c1b34da5f6d325e0cc019
+    projectPath: Temp\UnityTempFile-8ae55eb66d5c1b34da5f6d325e0cc019
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9067aca532b4f1e43b56caec04e42bfd
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-9067aca532b4f1e43b56caec04e42bfd
+    projectPath: Temp\UnityTempFile-9067aca532b4f1e43b56caec04e42bfd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-960e0162528efe74b988de5cf6ae2c48
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-960e0162528efe74b988de5cf6ae2c48
+    projectPath: Temp\UnityTempFile-960e0162528efe74b988de5cf6ae2c48
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-9a5d07ff011a9bd4f9d5ca7ce89f2045
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-9a5d07ff011a9bd4f9d5ca7ce89f2045
+    projectPath: Temp\UnityTempFile-9a5d07ff011a9bd4f9d5ca7ce89f2045
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a6aa48bd192a26d428d66d7b22beecdd
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-a6aa48bd192a26d428d66d7b22beecdd
+    projectPath: Temp\UnityTempFile-a6aa48bd192a26d428d66d7b22beecdd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a906a8150faf83f47a480ea5e45e6596
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-a906a8150faf83f47a480ea5e45e6596
+    projectPath: Temp\UnityTempFile-a906a8150faf83f47a480ea5e45e6596
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-a99fd184ff2d7f7469ee500709f88bfd
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-a99fd184ff2d7f7469ee500709f88bfd
+    projectPath: Temp\UnityTempFile-a99fd184ff2d7f7469ee500709f88bfd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-ab75d3dc6231b454592aa40c85cfa3f9
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-ab75d3dc6231b454592aa40c85cfa3f9
+    projectPath: Temp\UnityTempFile-ab75d3dc6231b454592aa40c85cfa3f9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-adeb88bd1667cf34d8ccf7781cd140af
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-adeb88bd1667cf34d8ccf7781cd140af
+    projectPath: Temp\UnityTempFile-adeb88bd1667cf34d8ccf7781cd140af
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-b89fea1ebcb33c448a1dfbac3ccb4d75
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-b89fea1ebcb33c448a1dfbac3ccb4d75
+    projectPath: Temp\UnityTempFile-b89fea1ebcb33c448a1dfbac3ccb4d75
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-c49140533d27115458349779f6383a7d
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-c49140533d27115458349779f6383a7d
+    projectPath: Temp\UnityTempFile-c49140533d27115458349779f6383a7d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-c5b1b6f4fd5e4b041a38464f7658432f
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-c5b1b6f4fd5e4b041a38464f7658432f
+    projectPath: Temp\UnityTempFile-c5b1b6f4fd5e4b041a38464f7658432f
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-d16d00326c0f01146ac651da447f382d
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-d16d00326c0f01146ac651da447f382d
+    projectPath: Temp\UnityTempFile-d16d00326c0f01146ac651da447f382d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-d78f85d4763559d49baab645aa913aa6
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-d78f85d4763559d49baab645aa913aa6
+    projectPath: Temp\UnityTempFile-d78f85d4763559d49baab645aa913aa6
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-d96bf91d887a0f946884cde4ed5b19ff
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-d96bf91d887a0f946884cde4ed5b19ff
+    projectPath: Temp\UnityTempFile-d96bf91d887a0f946884cde4ed5b19ff
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-db1fb33de6ec0124ab3d958e702d047a
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-db1fb33de6ec0124ab3d958e702d047a
+    projectPath: Temp\UnityTempFile-db1fb33de6ec0124ab3d958e702d047a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-e2dd831a97af3eb44aeeba0fbe6bab8d
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-e2dd831a97af3eb44aeeba0fbe6bab8d
+    projectPath: Temp\UnityTempFile-e2dd831a97af3eb44aeeba0fbe6bab8d
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-fc5b68cbc11f50443a808bea72b4ad83
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-fc5b68cbc11f50443a808bea72b4ad83
+    projectPath: Temp\UnityTempFile-fc5b68cbc11f50443a808bea72b4ad83
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp\UnityTempFile-fd5246bf949094241a84f713d646712e
+    fullPath: D:\UnityProjects\2D_RPG_First\Temp\UnityTempFile-fd5246bf949094241a84f713d646712e
+    projectPath: Temp\UnityTempFile-fd5246bf949094241a84f713d646712e
+    originalPath: 
+    status: 1
+    staged: 0

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-08-17T20:46:12.346+03:00
-  initializedAtString: 2018-08-17T20:46:12.346+03:00
+  lastUpdatedAtString: 2018-08-18T18:13:36.946+03:00
+  initializedAtString: 2018-08-18T13:43:47.492+03:00
   currentGitRemote:
     name: origin
-    url: git@github.com:Glebovvski/2D_RPG_Game.git
+    url: https://github.com/Glebovvski/2D_RPG_Game
     login: 
     user: 
     host: 
@@ -24,14 +24,14 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: 
+    tracking: origin/master
   currentConfigBranch:
     name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/Glebovvski/2D_RPG_Game
+    trackingBranch: master
   currentConfigRemote:
     name: origin
-    url: git@github.com:Glebovvski/2D_RPG_Game.git
-  currentHead: 2b03ce7
+    url: https://github.com/Glebovvski/2D_RPG_Game
+  currentHead: 536782f
