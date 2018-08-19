@@ -17,7 +17,7 @@ public class ShopSlot : MonoBehaviour {
 
     public void PurchaseItem()
     {
-        GameState.CurrentPlayer.Inventory.Add(Item);
+        GameState.CurrentPlayer.AddInventoryItem(Item);
         Item = null;
         var spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = null;
