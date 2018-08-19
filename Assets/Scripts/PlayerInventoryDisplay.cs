@@ -2,7 +2,38 @@
 
 public class PlayerInventoryDisplay : MonoBehaviour
 {
-    bool displayInventory = false;
+    #region MyInventory
+
+    [SerializeField]
+    private Canvas _inventory;
+
+    private bool displayed;
+
+    private void Awake()
+    {
+        displayed = false;
+    }
+
+    private void Start()
+    {
+        _inventory.gameObject.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            displayed = !displayed;
+            _inventory.gameObject.SetActive(displayed);
+        }
+    }
+
+    #endregion
+
+    #region OldInventory
+
+
+    /*bool displayInventory = false;
 
     Rect inventoryWindowRect;
     private Vector2 inventoryWindowSize = new Vector2(150, 150);
@@ -81,6 +112,7 @@ public class PlayerInventoryDisplay : MonoBehaviour
             }
         }
     }
-
+    */
+    #endregion
 }
 

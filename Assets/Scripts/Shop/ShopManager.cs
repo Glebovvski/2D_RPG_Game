@@ -20,8 +20,8 @@ public class ShopManager : MonoBehaviour {
         var OwnerSpriteRenderer = ShopOwnerLocation.GetComponent<SpriteRenderer>();
         OwnerSpriteRenderer.sprite = ShopOwnerSprite;
         OwnerSpriteRenderer.transform.localScale = ShopOwnerScale;
-
-        if(ItemSlots.Length>0 && ShopItems.Length > 0)
+        PurchasingSection.SetActive(false);
+        if (ItemSlots.Length>0 && ShopItems.Length > 0)
         {
             for (int i = 0; i < ShopItems.Length; i++)
             {
