@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-08-18T18:13:36.946+03:00
-  initializedAtString: 2018-08-18T13:43:47.492+03:00
+  lastUpdatedAtString: 2018-08-19T14:13:03.102+03:00
+  initializedAtString: 2018-08-19T14:13:03.102+03:00
   currentGitRemote:
     name: origin
     url: https://github.com/Glebovvski/2D_RPG_Game
@@ -34,4 +34,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/Glebovvski/2D_RPG_Game
-  currentHead: 536782f
+  currentHead: daf7f96

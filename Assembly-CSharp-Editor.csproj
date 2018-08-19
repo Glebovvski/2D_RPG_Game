@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Editor\ConversationAssetCreator.cs" />
     <Compile Include="Assets\Scripts\Editor\CustomAssetUtility.cs" />
+    <Compile Include="Assets\Scripts\Editor\InventoryItemAssetCreator.cs" />
     <Compile Include="Assets\Scripts\Editor\PositionManager.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/UnityProjects/2D_RPG_First/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

@@ -12,9 +12,153 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-18T18:22:48.786+03:00
+  lastUpdatedAtString: 2018-08-18T19:54:38.832+03:00
   initializedAtString: 2018-08-18T18:20:01.333+03:00
   log:
+  - commitID: daf7f969e401263d3bf5879a941d5a05ef8f180e
+    mergeA: 
+    mergeB: 
+    authorName: Gleb
+    authorEmail: zadachings@gmail.com
+    commitEmail: zadachings@gmail.com
+    commitName: Gleb
+    summary: minor fixes
+    description: minor fixes
+    timeString: 2018-08-18T19:54:17.000+03:00
+    commitTimeString: 2018-08-18T19:54:17.000+03:00
+    changes:
+    - path: Assets\Prefabs\Characters\ArmedGoblin.prefab
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Prefabs\Characters\ArmedGoblin.prefab
+      projectPath: Assets\Prefabs\Characters\ArmedGoblin.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Characters\BigGoblin.prefab
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Prefabs\Characters\BigGoblin.prefab
+      projectPath: Assets\Prefabs\Characters\BigGoblin.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Characters\SlimGoblin.prefab
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Prefabs\Characters\SlimGoblin.prefab
+      projectPath: Assets\Prefabs\Characters\SlimGoblin.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Environment\MapPoint.prefab
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Prefabs\Environment\MapPoint.prefab
+      projectPath: Assets\Prefabs\Environment\MapPoint.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Battle.unity
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scenes\Battle.unity
+      projectPath: Assets\Scenes\Battle.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\World.unity
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scenes\World.unity
+      projectPath: Assets\Scenes\World.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\BattleManager.cs
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\BattleManager.cs
+      projectPath: Assets\Scripts\BattleManager.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\FadeInOutManager.cs
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\FadeInOutManager.cs
+      projectPath: Assets\Scripts\FadeInOutManager.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\MapMovement.cs
+      fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\MapMovement.cs
+      projectPath: Assets\Scripts\MapMovement.cs
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 0f1eeaa8cca926577fa116503eccf5e4ba5a3afd
+    mergeA: 
+    mergeB: 
+    authorName: Gleb
+    authorEmail: zadachings@gmail.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create .gitignore
+    description: Create .gitignore
+    timeString: 2018-08-18T18:38:54.000+03:00
+    commitTimeString: 2018-08-18T18:38:54.000+03:00
+    changes:
+    - path: .gitignore
+      fullPath: D:\UnityProjects\2D_RPG_First\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: a9891e222311589874519521e582b696021b1deb
+    mergeA: 405f6eff3a2d932f22ea8208e075c88f814b3bdc
+    mergeB: eabe99a22ddee7d9990c3e02e2ef993d17e2fb01
+    authorName: Gleb
+    authorEmail: zadachings@gmail.com
+    commitEmail: zadachings@gmail.com
+    commitName: Gleb
+    summary: Merge branch 'master' of https://github.com/Glebovvski/2D_RPG_Game
+    description: Merge branch 'master' of https://github.com/Glebovvski/2D_RPG_Game
+    timeString: 2018-08-18T18:37:38.000+03:00
+    commitTimeString: 2018-08-18T18:37:38.000+03:00
+    changes: []
+  - commitID: eabe99a22ddee7d9990c3e02e2ef993d17e2fb01
+    mergeA: 
+    mergeB: 
+    authorName: Gleb
+    authorEmail: zadachings@gmail.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Delete .gitignore
+    description: Delete .gitignore
+    timeString: 2018-08-18T18:32:18.000+03:00
+    commitTimeString: 2018-08-18T18:32:18.000+03:00
+    changes:
+    - path: .gitignore
+      fullPath: D:\UnityProjects\2D_RPG_First\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 5
+      staged: 0
+  - commitID: 405f6eff3a2d932f22ea8208e075c88f814b3bdc
+    mergeA: 
+    mergeB: 
+    authorName: Gleb
+    authorEmail: zadachings@gmail.com
+    commitEmail: zadachings@gmail.com
+    commitName: Gleb
+    summary: lib
+    description: lib
+    timeString: 2018-08-18T18:23:21.000+03:00
+    commitTimeString: 2018-08-18T18:23:21.000+03:00
+    changes:
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: eab53aa30a7311a6c9061cddb49ce2d2c91d4e7f
     mergeA: 
     mergeB: 
@@ -350,6 +494,24 @@ MonoBehaviour:
       projectPath: Assets\Scripts\Navigation\NavigationManager.cs
       originalPath: 
       status: 3
+      staged: 0
+  - commitID: c35434115457cfc35a7694df12b512283054b48d
+    mergeA: 
+    mergeB: 
+    authorName: Gleb
+    authorEmail: zadachings@gmail.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create .gitignore
+    description: Create .gitignore
+    timeString: 2018-08-18T18:07:18.000+03:00
+    commitTimeString: 2018-08-18T18:07:18.000+03:00
+    changes:
+    - path: .gitignore
+      fullPath: D:\UnityProjects\2D_RPG_First\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
       staged: 0
   - commitID: bda306607c06861af584a4e666a5dcd11707d603
     mergeA: 

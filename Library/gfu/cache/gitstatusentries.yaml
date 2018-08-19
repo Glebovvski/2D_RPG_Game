@@ -12,9 +12,177 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-18T18:23:08.993+03:00
-  initializedAtString: 2018-08-18T18:16:43.375+03:00
+  lastUpdatedAtString: 2018-08-19T15:43:50.608+03:00
+  initializedAtString: 2018-08-19T14:13:04.330+03:00
   entries:
+  - path: .vs\2D_RPG_First\v15\.suo
+    fullPath: D:\UnityProjects\2D_RPG_First\.vs\2D_RPG_First\v15\.suo
+    projectPath: .vs\2D_RPG_First\v15\.suo
+    originalPath: 
+    status: 3
+    staged: 1
+  - path: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-shm
+    fullPath: D:\UnityProjects\2D_RPG_First\.vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-shm
+    originalPath: 
+    status: 3
+    staged: 1
+  - path: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-wal
+    fullPath: D:\UnityProjects\2D_RPG_First\.vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\2D_RPG_First\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    status: 3
+    staged: 1
+  - path: Assembly-CSharp.csproj
+    fullPath: D:\UnityProjects\2D_RPG_First\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp-Editor.csproj
+    fullPath: D:\UnityProjects\2D_RPG_First\Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Resources\Inventory Items.meta
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Resources\Inventory Items.meta
+    projectPath: Assets\Resources\Inventory Items.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Resources\Inventory Items\Lv0_Sword.asset
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Resources\Inventory Items\Lv0_Sword.asset
+    projectPath: Assets\Resources\Inventory Items\Lv0_Sword.asset
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Resources\Inventory Items\Lv0_Sword.asset.meta
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Resources\Inventory Items\Lv0_Sword.asset.meta
+    projectPath: Assets\Resources\Inventory Items\Lv0_Sword.asset.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\Shop.unity
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scenes\Shop.unity
+    projectPath: Assets\Scenes\Shop.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\Shop.unity.meta
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scenes\Shop.unity.meta
+    projectPath: Assets\Scenes\Shop.unity.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Classes\InventoryItem.cs
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\Classes\InventoryItem.cs
+    projectPath: Assets\Scripts\Classes\InventoryItem.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Classes\InventoryItem.cs.meta
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\Classes\InventoryItem.cs.meta
+    projectPath: Assets\Scripts\Classes\InventoryItem.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Editor\InventoryItemAssetCreator.cs
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\Editor\InventoryItemAssetCreator.cs
+    projectPath: Assets\Scripts\Editor\InventoryItemAssetCreator.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Editor\InventoryItemAssetCreator.cs.meta
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Scripts\Editor\InventoryItemAssetCreator.cs.meta
+    projectPath: Assets\Scripts\Editor\InventoryItemAssetCreator.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Environment\ShopScreen.png
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment\ShopScreen.png
+    projectPath: Assets\Sprites\Environment\ShopScreen.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Environment\ShopScreen.png.meta
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Environment\ShopScreen.png.meta
+    projectPath: Assets\Sprites\Environment\ShopScreen.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Props\BackButton.png
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Props\BackButton.png
+    projectPath: Assets\Sprites\Props\BackButton.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Props\BackButton.png.meta
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Props\BackButton.png.meta
+    projectPath: Assets\Sprites\Props\BackButton.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Props\BuyButton.png
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Props\BuyButton.png
+    projectPath: Assets\Sprites\Props\BuyButton.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Props\BuyButton.png.meta
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Props\BuyButton.png.meta
+    projectPath: Assets\Sprites\Props\BuyButton.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Props\Weapon Icons 1.png
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Props\Weapon Icons 1.png
+    projectPath: Assets\Sprites\Props\Weapon Icons 1.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Props\Weapon Icons 1.png.meta
+    fullPath: D:\UnityProjects\2D_RPG_First\Assets\Sprites\Props\Weapon Icons 1.png.meta
+    projectPath: Assets\Sprites\Props\Weapon Icons 1.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\EditorInstance.json
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\expandedItems
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\gfu\cache\gitlog.yaml
     fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
@@ -30,6 +198,156 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\1b\1bc1808b84620224388b0637f28f9f43
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\1b\1bc1808b84620224388b0637f28f9f43
+    projectPath: Library\metadata\1b\1bc1808b84620224388b0637f28f9f43
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\21\21fa6cf053f26ed41a5d40a029245d73.info
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\21\21fa6cf053f26ed41a5d40a029245d73.info
+    projectPath: Library\metadata\21\21fa6cf053f26ed41a5d40a029245d73.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\50\50ec3a9021a7ecd49a6899e3a1acf396.info
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\50\50ec3a9021a7ecd49a6899e3a1acf396.info
+    projectPath: Library\metadata\50\50ec3a9021a7ecd49a6899e3a1acf396.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\8c\8c99a194379ed2144af4dc42865aef37.info
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\8c\8c99a194379ed2144af4dc42865aef37.info
+    projectPath: Library\metadata\8c\8c99a194379ed2144af4dc42865aef37.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\c3\c3e1555836ed1b845a0a915baee196f8
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\c3\c3e1555836ed1b845a0a915baee196f8
+    projectPath: Library\metadata\c3\c3e1555836ed1b845a0a915baee196f8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\c8\c8dcb5c2f37026a4d811966a33cf8f31.info
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\c8\c8dcb5c2f37026a4d811966a33cf8f31.info
+    projectPath: Library\metadata\c8\c8dcb5c2f37026a4d811966a33cf8f31.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\d1\d1de3aa4861199b45aa574e7aaf68942
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\metadata\d1\d1de3aa4861199b45aa574e7aaf68942
+    projectPath: Library\metadata\d1\d1de3aa4861199b45aa574e7aaf68942
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ProjectSettings.asset
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\ProjectSettings.asset
+    projectPath: Library\ProjectSettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: D:\UnityProjects\2D_RPG_First\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.dll
+    fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp.dll
+    projectPath: obj\Debug\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.pdb
+    fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp.pdb
+    projectPath: obj\Debug\Assembly-CSharp.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\build.force
+    fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\build.force
+    projectPath: obj\Debug\build.force
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: D:\UnityProjects\2D_RPG_First\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: D:\UnityProjects\2D_RPG_First\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
     originalPath: 
     status: 3
     staged: 0
