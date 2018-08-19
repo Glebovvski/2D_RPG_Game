@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class NavigationManager {
 
+    private static string PreviousLocation;
+
     public struct Route
     {
         public string RouteDescription;
@@ -31,8 +33,16 @@ public class NavigationManager {
         return RouteInformation.ContainsKey(destination) ? RouteInformation[destination].CanTravel : false;
     }
 
+    public static void GoBack()
+    {
+        var backLocation = PreviousLocation;
+        PreviousLocation = SceneManager.GetActiveScene().name;
+        FadeInOutManager.FadeToLevel(backLocation,2f,2f,Color.black);
+    }
+
     public static void NavigateTo(string destination)
     {
+        PreviousLocation = SceneManager.GetActiveScene().name;
         if (destination == "Town")
         {
             GameState.PlayerReturningHome = false;

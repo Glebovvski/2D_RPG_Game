@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : Entity {
-    public List<InventoryItem> Inventory;
+    public List<InventoryItem> Inventory = new List<InventoryItem>();
     public string[] Skills;
     public int Money;
 }
