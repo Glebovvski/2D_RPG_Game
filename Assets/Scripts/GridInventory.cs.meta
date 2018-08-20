@@ -3,7 +3,13 @@ guid: 1b0b92a479c223447983f4c9d2f19eff
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ItemSlot: {fileID: 1762957249666614, guid: 7f286491debc7a64793c9938e22cf7d5, type: 2}
+  - playerStats: {fileID: 114571090930699624, guid: fba3ea542686e1f4c8dac774c06fe88c,
+      type: 2}
+  - weaponStats: {fileID: 114638537307939316, guid: 85089eddcd20245418cdbef2417179cf,
+      type: 2}
+  - Content: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

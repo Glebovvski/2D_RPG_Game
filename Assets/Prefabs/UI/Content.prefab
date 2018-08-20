@@ -56,8 +56,9 @@ MonoBehaviour:
   ItemSlot: {fileID: 1762957249666614, guid: 7f286491debc7a64793c9938e22cf7d5, type: 2}
   playerStats: {fileID: 114571090930699624, guid: fba3ea542686e1f4c8dac774c06fe88c,
     type: 2}
-  weaponStats: {fileID: 114615348733348928, guid: 85089eddcd20245418cdbef2417179cf,
+  weaponStats: {fileID: 114638537307939316, guid: 85089eddcd20245418cdbef2417179cf,
     type: 2}
+  _mouseOver: 1
 --- !u!114 &114643122841442702
 MonoBehaviour:
   m_ObjectHideFlags: 1

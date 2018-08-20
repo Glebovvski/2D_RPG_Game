@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1735233171572546}
+  m_RootGameObject: {fileID: 1316373972980338}
   m_IsPrefabAsset: 1
---- !u!1 &1735233171572546
+--- !u!1 &1316373972980338
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224845491087262588}
-  - component: {fileID: 222961390135913850}
-  - component: {fileID: 114638537307939316}
+  - component: {fileID: 224912287204255188}
+  - component: {fileID: 222143370481949984}
+  - component: {fileID: 114099783574138056}
   m_Layer: 5
   m_Name: WeaponStats
   m_TagString: Untagged
@@ -28,12 +28,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &114638537307939316
+--- !u!114 &114099783574138056
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1735233171572546}
+  m_GameObject: {fileID: 1316373972980338}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -61,19 +61,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
---- !u!222 &222961390135913850
+--- !u!222 &222143370481949984
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1735233171572546}
+  m_GameObject: {fileID: 1316373972980338}
   m_CullTransparentMesh: 0
---- !u!224 &224845491087262588
+--- !u!224 &224912287204255188
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1735233171572546}
+  m_GameObject: {fileID: 1316373972980338}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -83,6 +83,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 128.89, y: -107.42}
-  m_SizeDelta: {x: 163.23, y: 116.01}
+  m_AnchoredPosition: {x: 128, y: -111.7}
+  m_SizeDelta: {x: 163.2, y: 134.4}
   m_Pivot: {x: 0.5, y: 0.5}

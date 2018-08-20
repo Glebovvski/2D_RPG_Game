@@ -8,6 +8,7 @@ public class MessagingManager : Singleton<MessagingManager>
     // public property for manager
     private List<Action> subscribers = new List<Action>();
     private List<Action<bool>> uiEventSubscribers = new List<Action<bool>>();
+    private List<Action<InventoryItem>> inventorySubscribers = new List<Action<InventoryItem>>();
 
     // Subscribe method for manager
     public void Subscribe(Action subscriber)
@@ -17,25 +18,24 @@ public class MessagingManager : Singleton<MessagingManager>
             subscribers.Add(subscriber);
         }
     }
-
-    // Unsubscribe method for manager
-    public void UnSubscribe(Action subscriber)
+    
+    // Subscribe method for manager
+    public void SubscribeUIEvent(Action<bool> subscriber)
     {
-        if (subscribers != null)
+        if (uiEventSubscribers != null)
         {
-            subscribers.Remove(subscriber);
+            uiEventSubscribers.Add(subscriber);
         }
     }
 
-    // Clear subscribers method for manager
-    public void ClearAllSubscribers()
+    public void SubscribeInventoryEvent(Action<InventoryItem> subscriber)
     {
-        if (subscribers != null)
+        if (inventorySubscribers != null)
         {
-            subscribers.Clear();
+            inventorySubscribers.Add(subscriber);
         }
     }
-
+    
     public void Broadcast()
     {
         if (subscribers != null)
@@ -46,16 +46,7 @@ public class MessagingManager : Singleton<MessagingManager>
             }
         }
     }
-
-    // Subscribe method for manager
-    public void SubscribeUIEvent(Action<bool> subscriber)
-    {
-        if (uiEventSubscribers != null)
-        {
-            uiEventSubscribers.Add(subscriber);
-        }
-    }
-
+    
     public void BroadcastUIEvent(bool uIVisible)
     {
         if (uiEventSubscribers != null)
@@ -64,6 +55,24 @@ public class MessagingManager : Singleton<MessagingManager>
             {
                 subscriber(uIVisible);
             }
+        }
+    }
+
+    public void BroadcastInventoryEvent(InventoryItem itemInuse)
+    {
+        foreach (var subscriber in inventorySubscribers)
+        {
+            subscriber(itemInuse);
+        }
+    }
+
+
+    // Unsubscribe method for manager
+    public void UnSubscribe(Action subscriber)
+    {
+        if (subscribers != null)
+        {
+            subscribers.Remove(subscriber);
         }
     }
 
@@ -76,12 +85,38 @@ public class MessagingManager : Singleton<MessagingManager>
         }
     }
 
+    public void UnsubscribeInventoryEvent(Action<InventoryItem> subscriber)
+    {
+        if (inventorySubscribers != null)
+        {
+            inventorySubscribers.Remove(subscriber);
+        }
+    }
+
+
+    // Clear subscribers method for manager
+    public void ClearAllSubscribers()
+    {
+        if (subscribers != null)
+        {
+            subscribers.Clear();
+        }
+    }
+
     // Clear subscribers method for manager
     public void ClearAllUIEventSubscribers()
     {
         if (uiEventSubscribers != null)
         {
             uiEventSubscribers.Clear();
+        }
+    }
+
+    public void ClearAllInventoryEventSubscribers()
+    {
+        if (inventorySubscribers != null)
+        {
+            inventorySubscribers.Clear();
         }
     }
 }

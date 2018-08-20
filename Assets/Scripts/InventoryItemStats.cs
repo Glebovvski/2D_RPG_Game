@@ -7,10 +7,8 @@ public class InventoryItemStats : MonoBehaviour {
 
     [SerializeField]
     private Text weaponStats;
-
     
-
-    private void OnMouseUp()
+    private void OnMouseDown()
     {
         InventoryItem item = GameState.CurrentPlayer.FindItemByImage(GetComponent<Image>().sprite);
         if (item != null)

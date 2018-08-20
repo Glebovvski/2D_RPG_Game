@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BattleManager.cs" />
     <Compile Include="Assets\Scripts\CharacterMovement.cs" />
+    <Compile Include="Assets\Scripts\Classes\CommandButton.cs" />
     <Compile Include="Assets\Scripts\Classes\Conversation.cs" />
     <Compile Include="Assets\Scripts\Classes\ConversationComponent.cs" />
     <Compile Include="Assets\Scripts\Classes\ConversationEntry.cs" />
@@ -71,8 +72,10 @@
     <Compile Include="Assets\Scripts\Classes\InventoryItem.cs" />
     <Compile Include="Assets\Scripts\Classes\NPC.cs" />
     <Compile Include="Assets\Scripts\Classes\Player.cs" />
+    <Compile Include="Assets\Scripts\Classes\ScreenPositionAnchorPoint.cs" />
     <Compile Include="Assets\Scripts\Classes\Singletone.cs" />
     <Compile Include="Assets\Scripts\Classes\WorldExtensions.cs" />
+    <Compile Include="Assets\Scripts\CommandBar.cs" />
     <Compile Include="Assets\Scripts\ConversationManager.cs" />
     <Compile Include="Assets\Scripts\EnemySpawnManager.cs" />
     <Compile Include="Assets\Scripts\Examples\ScriptingObjects.cs" />
