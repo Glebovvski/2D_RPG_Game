@@ -82,7 +82,8 @@
     <Compile Include="Assets\Scripts\FadeInOutManager.cs" />
     <Compile Include="Assets\Scripts\FollowCamera.cs" />
     <Compile Include="Assets\Scripts\GridInventory.cs" />
-    <Compile Include="Assets\Scripts\InventoryItemStats.cs" />
+    <Compile Include="Assets\Scripts\InventoryManger.cs" />
+    <Compile Include="Assets\Scripts\ItemSlotController.cs" />
     <Compile Include="Assets\Scripts\MapMovement.cs" />
     <Compile Include="Assets\Scripts\Messaging\MessagingClientBroadcast.cs" />
     <Compile Include="Assets\Scripts\Messaging\MessagingClientReceiver.cs" />

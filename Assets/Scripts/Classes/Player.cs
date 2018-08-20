@@ -19,7 +19,7 @@ public class Player : Entity {
     {
         if (Inventory.Any(x => x.Sprite == image))
         {
-            return Inventory[0];//.First(x => x.Sprite == image);
+            return Inventory.First(x => x.Sprite == image);
         }
         else return null;
     }
