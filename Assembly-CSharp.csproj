@@ -67,6 +67,8 @@
     <Compile Include="Assets\Scripts\Classes\Conversation.cs" />
     <Compile Include="Assets\Scripts\Classes\ConversationComponent.cs" />
     <Compile Include="Assets\Scripts\Classes\ConversationEntry.cs" />
+    <Compile Include="Assets\Scripts\Classes\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Classes\EnemyClass.cs" />
     <Compile Include="Assets\Scripts\Classes\Entity.cs" />
     <Compile Include="Assets\Scripts\Classes\GameState.cs" />
     <Compile Include="Assets\Scripts\Classes\InventoryItem.cs" />
@@ -77,6 +79,7 @@
     <Compile Include="Assets\Scripts\Classes\WorldExtensions.cs" />
     <Compile Include="Assets\Scripts\CommandBar.cs" />
     <Compile Include="Assets\Scripts\ConversationManager.cs" />
+    <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\EnemySpawnManager.cs" />
     <Compile Include="Assets\Scripts\Examples\ScriptingObjects.cs" />
     <Compile Include="Assets\Scripts\FadeInOutManager.cs" />
