@@ -37,6 +37,7 @@ public class NavigationManager {
     {
         var backLocation = PreviousLocation;
         PreviousLocation = SceneManager.GetActiveScene().name;
+        GameState.SaveState();
         FadeInOutManager.FadeToLevel(backLocation,2f,2f,Color.black);
     }
 
@@ -47,7 +48,7 @@ public class NavigationManager {
         {
             GameState.PlayerReturningHome = false;
         }
-
+        GameState.SaveState();
         FadeInOutManager.FadeToLevel(destination, 2f, 2f, Color.black);
     }
 }
