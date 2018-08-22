@@ -11,7 +11,7 @@ public class CameraLookAt : MonoBehaviour {
         transform.LookAt(cameraTarget);
     }
 
-    private void OnDrawGizmos()
+    private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawLine(transform.position, cameraTarget);
