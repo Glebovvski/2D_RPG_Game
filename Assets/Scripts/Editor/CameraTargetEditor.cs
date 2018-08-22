@@ -24,4 +24,19 @@ public class CameraTargetEditor : Editor {
         if (GUI.changed)
             EditorUtility.SetDirty(target);
     }
+
+    private void OnEnable()
+    {
+        EditorApplication.hierarchyChanged += HierarchyWindowChanged;
+    }
+
+    void HierarchyWindowChanged()
+    {
+
+    }
+
+    private void OnDestroy()
+    {
+        EditorApplication.hierarchyChanged -= HierarchyWindowChanged;
+    }
 }

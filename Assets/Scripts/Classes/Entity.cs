@@ -6,7 +6,7 @@ public class Entity : ScriptableObject {
 
     public string Name;
     public int Age;
-    string Faction;
+    public string Faction;
     public string Occupation;
     public int Level = 1;
     public int Health = 2;
