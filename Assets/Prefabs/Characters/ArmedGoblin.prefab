@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 95398916638867044}
   - component: {fileID: 50144518972031232}
   - component: {fileID: 61497877546207954}
+  - component: {fileID: 114248878598587548}
   m_Layer: 0
   m_Name: ArmedGoblin
   m_TagString: Untagged
@@ -106,6 +107,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114248878598587548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564196126571640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a16b6e7ea8695fe41b4cb0a8c4f0d2a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyProfile: {fileID: 0}
 --- !u!212 &212944429331520700
 SpriteRenderer:
   m_ObjectHideFlags: 1

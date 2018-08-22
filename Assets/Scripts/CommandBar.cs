@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CommandBar : MonoBehaviour {
-
-    public InventoryItem debugItem;
-
+    
     private CommandButton[] commandButtons;
 
     public bool anchor = true;
@@ -58,9 +56,6 @@ public class CommandBar : MonoBehaviour {
 
     void Awake()
     {
-#if UNITY_EDITOR
-        GameState.CurrentPlayer.AddInventoryItem(debugItem);
-#endif
         ScreenHeight = Camera.main.orthographicSize * 2;
         ScreenWidth = ScreenHeight * Screen.width / Screen.height;
     }

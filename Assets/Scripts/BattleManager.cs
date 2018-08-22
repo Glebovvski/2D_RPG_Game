@@ -5,6 +5,30 @@ using UnityEngine;
 
 public class BattleManager : MonoBehaviour {
 
+    private string selectedTargetName;
+    private EnemyController selectedTarget;
+    public GameObject selectionCircle;
+    private bool canSelectEnemy;
+
+    bool attacking = false;
+
+    public bool CanSelectEnemy
+    {
+        get
+        {
+            return canSelectEnemy;
+        }
+    }
+
+    public int EnemyCount
+    {
+        get
+        {
+            return enemyCount;
+        }
+    }
+
+
     public GameObject[] EnemySpawnPoints;
 
     public GameObject[] EnemyPrefabs;
@@ -64,6 +88,20 @@ public class BattleManager : MonoBehaviour {
                 {
                     GUI.Box(new Rect((Screen.width / 2) - 50, 10, 100, 50), "Select Weapon");
                 }
+                else if (selectedTarget == null)
+                {
+                    GUI.Box(new Rect((Screen.width / 2) - 50, 10, 100, 50), "Select Target");
+                    canSelectEnemy = true;
+                }
+                else
+                {
+                    if(GUI.Button(new Rect((Screen.width/2)-50,10,100,50),"Attack " + selectedTargetName))
+                    {
+                        canSelectEnemy = false;
+                        battleStateManager.SetBool("PlayerReady", true);
+                        MessagingManager.Instance.BroadcastUIEvent(true);
+                    }
+                }
                 break;
             case BattleState.Player_Attack:
                 break;
@@ -101,6 +139,10 @@ public class BattleManager : MonoBehaviour {
             case BattleState.Player_Move:
                 break;
             case BattleState.Player_Attack:
+                if (!attacking)
+                {
+                    StartCoroutine(AttackTarget());
+                }
                 break;
             case BattleState.Change_Control:
                 break;
@@ -120,12 +162,23 @@ public class BattleManager : MonoBehaviour {
         for (int i = 0; i < enemyCount; i++)
         {
             var newEnemy = (GameObject)Instantiate(EnemyPrefabs[UnityEngine.Random.Range(0, EnemyPrefabs.Length)]);
-            newEnemy.GetComponent<Rigidbody2D>().freezeRotation = true;
             newEnemy.transform.position = new Vector3(10, -1, 0);
 
             yield return StartCoroutine(MoveCharacterToPoint(EnemySpawnPoints[i], newEnemy));
 
             newEnemy.transform.parent = EnemySpawnPoints[i].transform;
+
+            var controller = newEnemy.GetComponent<EnemyController>();
+            controller.BattleManager = this;
+
+            var enemyProfile = ScriptableObject.CreateInstance<Enemy>();
+            enemyProfile.Class = EnemyClass.Goblin;
+            enemyProfile.Level = 1;
+            enemyProfile.Damage = 1;
+            enemyProfile.Health = 2;
+            enemyProfile.Name = enemyProfile.Class + " " + i.ToString();
+
+            controller.EnemyProfile = enemyProfile;
         }
         battleStateManager.SetBool("BattleReady", true);
     }
@@ -148,6 +201,42 @@ public class BattleManager : MonoBehaviour {
         else
         {
             character.transform.position = destination.transform.position;
+        }
+    }
+
+    IEnumerator AttackTarget()
+    {
+        int Attacks = 0;
+        attacking = true;
+        bool attackComplete = false;
+        while (!attackComplete)
+        {
+            GameState.CurrentPlayer.Attack(selectedTarget.EnemyProfile);
+            selectedTarget.UpdateAI();
+            Attacks++;
+            if(selectedTarget.EnemyProfile.Health<1 || Attacks > GameState.CurrentPlayer.NoOfAttacks)
+            {
+                selectedTarget.UpdateAI();
+                attackComplete = true;
+            }
+            yield return new WaitForSeconds(1);
+        }
+    }
+
+    public void SelectEnemy(EnemyController enemy, string name)
+    {
+        selectedTarget = enemy;
+        selectedTargetName = name;
+    }
+
+    public void ClearSelectedEnemy()
+    {
+        if (selectedTarget != null)
+        {
+            var enemyController = selectedTarget.GetComponent<EnemyController>();
+            enemyController.ClearSelection();
+            selectedTarget = null;
+            selectedTargetName = string.Empty;
         }
     }
 }
