@@ -635,6 +635,11 @@ Prefab:
       propertyPath: m_Name
       value: Jeff
       objectReference: {fileID: 0}
+    - target: {fileID: 114615688295074452, guid: 3beefa3a87de3404c9279dc663e9dc9b,
+        type: 2}
+      propertyPath: Occupation
+      value: Layabout
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3beefa3a87de3404c9279dc663e9dc9b, type: 2}
   m_IsPrefabAsset: 0
