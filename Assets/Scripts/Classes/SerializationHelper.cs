@@ -37,4 +37,20 @@ public class SerializationHelper {
 
         return output;
     }
+
+    public static T Deserialise<T>(byte[] input)
+    {
+        T output = default(T);
+        var serialiser = new XmlSerializer(typeof(T));
+        try
+        {
+            using (var stream = new MemoryStream(input))
+            {
+                output = (T)serialiser.Deserialize(stream);
+            }
+        }
+        catch { }
+
+        return output;
+    }
 }

@@ -45,13 +45,4 @@ public class InventoryManger : MonoBehaviour {
             "Armor: " + GameState.CurrentPlayer.Armor;
        // weaponStats = GameObject.FindGameObjectWithTag("WeaponStats");
     }
-
-    private void OnGUI()
-    {   //
-        //if (_mouseOver)
-        //{
-        //    GUI.Box(new Rect(Input.mousePosition.GetScreenPositionFor2D().x, Input.mousePosition.GetScreenPositionFor2D().y,100,100), _stats);
-        //    //GUI.Label(new Rect(Input.mousePosition.x, Input.mousePosition.y, 100, 100), _stats);
-        //}
-    }
 }

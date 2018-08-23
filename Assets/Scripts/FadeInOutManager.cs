@@ -58,7 +58,7 @@ public class FadeInOutManager : Singleton<FadeInOutManager> {
         while (t < 1.0f)
         {
             fading = true;
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForSeconds(0.001f);
             
             t = Mathf.Clamp01(t + Time.deltaTime / fadeOutTime);
             DrawingUtilities.DrawQuad(fadeMaterial, fadeColor, t);
@@ -75,8 +75,8 @@ public class FadeInOutManager : Singleton<FadeInOutManager> {
         while (t > 0.0f)
         {
             fading = true;
-            yield return new WaitForEndOfFrame();
-            
+            yield return new WaitForSeconds(0.001f);
+
             t = Mathf.Clamp01(t - Time.deltaTime / fadeInTime);
 
             DrawingUtilities.DrawQuad(fadeMaterial, fadeColor, t);

@@ -32,8 +32,6 @@ public class GridInventory : MonoBehaviour {
         else
         {
             ItemSlot.GetComponent<Image>().sprite = GameState.CurrentPlayer.Inventory[0].Sprite;
-            //Button button = ItemSlot.GetComponent<Button>();
-            //button.onClick.AddListener(() => ItemSlotController.GetStats(ItemSlot));
         }
         GameObject newObj;
         int inventoryCount = GameState.CurrentPlayer.Inventory.Count;
@@ -43,8 +41,6 @@ public class GridInventory : MonoBehaviour {
             if(GameState.CurrentPlayer.Inventory[i] != null)
             {
                 newObj.GetComponent<Image>().sprite = GameState.CurrentPlayer.Inventory[i].Sprite;
-                //Button button = newObj.GetComponent<Button>();
-                //button.onClick.AddListener(()=>ItemSlotController.GetStats(newObj));
             }
         }
         return GameState.CurrentPlayer.Inventory.Count;

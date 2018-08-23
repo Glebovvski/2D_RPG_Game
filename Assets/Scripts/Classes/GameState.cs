@@ -43,11 +43,15 @@ public static  class GameState
         try
         {
             PlayerPrefs.SetString("CurrentLocation", SceneManager.GetActiveScene().name);
+            var playerSerializedState = SerializationHelper.Serialise<PlayerSaveState>(CurrentPlayer.GetPlayerSaveState());
+#if UNITY_METRO
+            UnityEngine.Windows.File.WriteAllBytes(saveFilePath, playerSerializedState);
+#else
             using (var file=File.Create(saveFilePath))
             {
-                var playerSerialisedState = SerializationHelper.Serialise<PlayerSaveState>(CurrentPlayer.GetPlayerSaveState());
-                file.Write(playerSerialisedState, 0, playerSerialisedState.Length);
+                file.Write(playerSerializedState, 0, playerSerializedState.Length);
             }
+#endif
         }
         catch
         {
@@ -57,15 +61,21 @@ public static  class GameState
 
     public static void LoadState(Action LoadComplete)
     {
+        PlayerSaveState loadedPlayer;
         try
         {
             if (SaveAvailable)
             {
+#if UNITY_METRO
+                var playerSerializedState=UnityEngine.Windows.File.ReadAllBytes(saveFilePath);
+                loadedPlayer = SerializationHelper.Deserialise<PlayerSaveState>(playerSerializedState);
+#else
                 using (var stream=File.Open(saveFilePath, FileMode.Open))
                 {
-                    var loadedPlayer = SerializationHelper.Deserialise<PlayerSaveState>(stream);
-                    CurrentPlayer = loadedPlayer.LoadPlayerSaveState(CurrentPlayer);
+                    loadedPlayer = SerializationHelper.Deserialise<PlayerSaveState>(stream);
                 }
+#endif
+                CurrentPlayer = loadedPlayer.LoadPlayerSaveState(CurrentPlayer);
             }
         }
         catch
